@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NguyenVanCuong560.Models;
+using NguyenVanCuong560.Models.StringProcessNVC560;
 
 namespace NguyenVanCuong560.Controllers
 {
+
     public class NVC0560Controller : Controller
     {
+        private StringProcessNVC560 upper = new StringProcessNVC560();
         private readonly ApplicationDBContext _context;
 
         public NVC0560Controller(ApplicationDBContext context)
@@ -57,6 +60,7 @@ namespace NguyenVanCuong560.Controllers
         {
             if (ModelState.IsValid)
             {
+                NVCName = upper.Equals(NVCName);
                 _context.Add(nVC0560);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

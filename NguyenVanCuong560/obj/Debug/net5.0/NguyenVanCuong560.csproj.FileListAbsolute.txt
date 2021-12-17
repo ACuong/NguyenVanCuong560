@@ -168,3 +168,8 @@ D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Ra
 D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\UniversityNVC560\Details.cshtml.g.cs
 D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\UniversityNVC560\Edit.cshtml.g.cs
 D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\UniversityNVC560\Index.cshtml.g.cs
+D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\NVC0560\Create.cshtml.g.cs
+D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\NVC0560\Delete.cshtml.g.cs
+D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\NVC0560\Details.cshtml.g.cs
+D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\NVC0560\Edit.cshtml.g.cs
+D:\HocTap\MaNguonMoCNTKT\BaiKiemTraNetCore\NguyenVanCuong560\obj\Debug\net5.0\Razor\Views\NVC0560\Index.cshtml.g.cs

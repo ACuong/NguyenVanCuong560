@@ -7,9 +7,10 @@ namespace NguyenVanCuong560.Models
     {
         public string LowerToUpper(string strInput)
         {
-            string strOutput = Regex.Replace(strInput, @"\D+").Value;
+            string strOutput = strInput.ToUpper();
 
             return strOutput;
         }
+
     }
 }

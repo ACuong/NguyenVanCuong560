@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NguyenVanCuong560.Models;
-using NguyenVanCuong560.Models.StringProcessNVC560;
+
 
 namespace NguyenVanCuong560.Controllers
 {
@@ -58,9 +58,10 @@ namespace NguyenVanCuong560.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("NVCID,NVCName,NVCGender")] NVC0560 nVC0560)
         {
+             
             if (ModelState.IsValid)
             {
-                NVCName = upper.Equals(NVCName);
+                nVC0560.NVCName = upper.LowerToUpper(nVC0560.NVCName);
                 _context.Add(nVC0560);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

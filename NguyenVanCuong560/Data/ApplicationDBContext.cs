@@ -13,4 +13,6 @@ using NguyenVanCuong560.Models;
         }
 
         public DbSet<NguyenVanCuong560.Models.UniversityNVC560> UniversityNVC560 { get; set; }
+
+        public DbSet<NguyenVanCuong560.Models.NVC0560> NVC0560 { get; set; }
     }
